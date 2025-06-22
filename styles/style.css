@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fffaf4;
+    color: #333;
+}
+
+header {
+    background-color: bisque;
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 4px solid #ffbe76;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about {
+    margin-bottom: 3rem;
+}
+
+.about img {
+    display: block;
+    margin: 0 auto 1rem auto;
+    border-radius: 50%;
+    border: 15px solid pink;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.about p {
+    text-align: center;
+}
+
+.facts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.facts li::before {
+    content: "🐾 ";
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: bisque;
+    border-top: 4px solid #ffbe76;
+    margin-top: 2rem;
+}
